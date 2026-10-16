@@ -9,6 +9,13 @@
   },
   "repository": "https://github.com/ibedwi/skills",
   "license": "MIT",
-  "keywords": ["skills", "engineering", "productivity"],
-  "skills": []
+  "keywords": [
+    "skills",
+    "engineering",
+    "productivity"
+  ],
+  "skills": [
+    "./skills/productivity/obsidian",
+    "./skills/productivity/setup-obsidian"
+  ]
 }

@@ -1,0 +1,37 @@
+# Obsidian skill config.
+# Written by /setup-obsidian to ~/.config/obsidian-skill/config.toml.
+# Every key except `vault` is optional; the obsidian skill's CONFIG.md has the defaults.
+
+vault = "~/Documents/MyVault"
+
+date_format = "YYYY-MM-DD"
+time_format = "HH:mm"
+tags = []
+
+[daily]
+# Leave unset to reuse the vault's Daily notes plugin settings.
+# folder = "Daily"
+# format = "YYYY-MM-DD"
+# template = "Templates/Daily"
+
+[work_log]
+mode = "daily"
+heading = "## Work log"
+entry_template = "- {time} **{project}**: {text}"
+
+[thought]
+folder = "Inbox"
+filename = "{date} {title}"
+tags = ["thought"]
+
+[summary]
+folder = "AI conversations"
+filename = "{date} {title}"
+tags = ["ai-conversation"]
+sections = ["Summary", "Decisions", "Open questions", "Next steps", "Links"]
+link_daily = true
+
+[frontmatter]
+created = "{datetime}"
+project = "{project}"
+source = "{agent}"

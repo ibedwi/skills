@@ -59,8 +59,8 @@ General workflow tools, not code-specific.
 
 **User-invoked**
 
-_None yet._
+- **[setup-obsidian](./skills/productivity/setup-obsidian/SKILL.md)**: Set up the `obsidian` skill: pick a vault, confirm daily note and folder locations, and write its TOML config. Run once per machine.
 
 **Model-invoked**
 
-_None yet._
+- **[obsidian](./skills/productivity/obsidian/SKILL.md)**: Log work to your daily note, save thoughts, and save conversation summaries to an Obsidian vault, configured by one TOML file.

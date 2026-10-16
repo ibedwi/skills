@@ -1,0 +1,5 @@
+interface:
+  display_name: "Setup Obsidian"
+  short_description: "Configure the obsidian skill's vault and folders"
+policy:
+  allow_implicit_invocation: false
