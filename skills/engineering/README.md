@@ -6,7 +6,8 @@ Skills I use daily for code work.
 
 Reachable only when you type them (Claude Code: `disable-model-invocation: true`; Codex: `policy.allow_implicit_invocation: false` in `agents/openai.yaml`).
 
-_None yet._
+- **[fan-out](./fan-out/SKILL.md)**: Start one herdr worktree lane per ready GitHub ticket, each running Claude on `/implement`, so tickets build in parallel.
+- **[fan-in](./fan-in/SKILL.md)**: Collect the lanes `/fan-out` started: open PRs for finished tickets, surface blocked agents, and clean up merged lanes.
 
 ## Model-invoked
 

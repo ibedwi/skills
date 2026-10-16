@@ -47,7 +47,8 @@ Skills I use daily for code work.
 
 **User-invoked**
 
-_None yet._
+- **[fan-out](./skills/engineering/fan-out/SKILL.md)**: Start one herdr worktree lane per ready GitHub ticket, each running Claude on `/implement`, so tickets build in parallel.
+- **[fan-in](./skills/engineering/fan-in/SKILL.md)**: Collect the lanes `/fan-out` started: open PRs for finished tickets, surface blocked agents, and clean up merged lanes.
 
 **Model-invoked**
 
