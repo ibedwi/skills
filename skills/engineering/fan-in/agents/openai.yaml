@@ -1,0 +1,5 @@
+interface:
+  display_name: "Fan In"
+  short_description: "Ship finished herdr lanes as PRs and clean up merged ones"
+policy:
+  allow_implicit_invocation: false
