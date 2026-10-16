@@ -1,0 +1,20 @@
+{
+  "name": "ibedwi-skills",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Ibe Dwi's agent skills",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ibedwi/skills"
+  },
+  "license": "MIT",
+  "scripts": {
+    "changeset": "changeset",
+    "version": "changeset version && node scripts/sync-plugin-version.mjs",
+    "check-plugin-version": "node scripts/sync-plugin-version.mjs --check"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.7.0",
+    "@changesets/cli": "^2.30.0"
+  }
+}

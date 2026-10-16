@@ -1,0 +1,17 @@
+{
+  "name": "ibedwi",
+  "owner": {
+    "name": "Ibe Dwi",
+    "url": "https://ibedwi.dev"
+  },
+  "description": "Ibe Dwi's skills, as an installable Claude Code plugin.",
+  "plugins": [
+    {
+      "name": "ibedwi-skills",
+      "source": "./",
+      "description": "Ibe Dwi's agent skills.",
+      "category": "engineering",
+      "keywords": ["skills", "engineering", "productivity"]
+    }
+  ]
+}

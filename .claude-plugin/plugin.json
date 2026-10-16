@@ -1,0 +1,14 @@
+{
+  "name": "ibedwi-skills",
+  "version": "0.0.0",
+  "description": "Ibe Dwi's agent skills.",
+  "author": {
+    "name": "Ibe Dwi",
+    "email": "hi@ibedwi.dev",
+    "url": "https://ibedwi.dev"
+  },
+  "repository": "https://github.com/ibedwi/skills",
+  "license": "MIT",
+  "keywords": ["skills", "engineering", "productivity"],
+  "skills": []
+}
